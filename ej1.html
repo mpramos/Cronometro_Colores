@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script defer src="ej1.js"></script>
+  <title>Cronómetro</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+
+    th {
+      text-align: left;
+    }
+
+    #start-button, #stop-button {
+      padding: 8px 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Cronómetro</h1>
+  <table id="results-table">
+    <tr>
+      <th>#</th>
+      <th>Tiempo transcurrido</th>
+    </tr>
+  </table>
+  <br>
+  <button id="start-button">Iniciar</button>
+  <button id="stop-button">Detener</button>
+  <br>
+  <br>
+  <div id="elapsed-time">00:00:00</div>
+</body>
+</html>
